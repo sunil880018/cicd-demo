@@ -1,6 +1,11 @@
 name: Build and Deploy Code
 
-on: [push, pull_request]
+on: 
+  push: 
+  branches: 
+  — master 
+  — staging
+  — develop 
 
 jobs:
   build:
