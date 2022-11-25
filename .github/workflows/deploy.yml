@@ -13,7 +13,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v2
         with:
-          go-version: "3.9"
+          go-version: "1.19.3"
       - name: install all dependencies
         run: |
           go version
