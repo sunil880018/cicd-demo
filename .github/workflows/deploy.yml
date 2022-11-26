@@ -68,5 +68,5 @@ jobs: # required
           context: .
           file: ./Dockerfile
           push: true
-          repository: ${{ secrets.DOCKERHUB_USERNAME/cicd-demo-app }}
+          repository: cicd-demo-app
           tags: cicd-demo-app
