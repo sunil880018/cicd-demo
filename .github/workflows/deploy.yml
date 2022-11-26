@@ -68,5 +68,6 @@ jobs: # required
           context: .
           file: ./Dockerfile
           push: true
-          tags: cicd-demo-app
+          tags: sunildev880018/cicd-demo-app/app:latest
+
         
