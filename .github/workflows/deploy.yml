@@ -67,5 +67,5 @@ jobs: # required
         with:
           context: .
           file: ./Dockerfile
-          push: true
+          load: true
           tags: your-order-backend:latest
