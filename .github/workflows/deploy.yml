@@ -63,10 +63,11 @@ jobs: # required
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
       -
         name: Build and push to docker hub registery
+        id: docker_build
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile
+          file: Dockerfile
           push: true
           tags: sunildev880018/cicd-demo-app/app:latest
 
