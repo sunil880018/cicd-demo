@@ -68,5 +68,5 @@ jobs: # required
           context: .
           file: ./Dockerfile
           push: true
-          repository: cicd-demo-app
           tags: cicd-demo-app
+        
