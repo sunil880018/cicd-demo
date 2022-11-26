@@ -67,6 +67,6 @@ jobs: # required
         with:
           context: .
           file: ./Dockerfile
-          push: true
+          load: true
           tags: cicd-demo
         
