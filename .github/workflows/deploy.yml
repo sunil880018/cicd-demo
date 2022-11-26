@@ -66,5 +66,6 @@ jobs: # required
         uses: docker/build-push-action@v3
         with:
           context: .
+          file: ./Dockerfile
           push: true
-          tags: cicd-demo-app 
+          tags: your-order-backend:latest
